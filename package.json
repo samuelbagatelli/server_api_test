@@ -1,0 +1,29 @@
+{
+  "name": "server_api_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelbagatelli/server_api_test.git"
+  },
+  "keywords": [],
+  "author": "someone else",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "6.8",
+    "eslint-config-trybe-backend": "1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelbagatelli/server_api_test/issues"
+  },
+  "homepage": "https://github.com/samuelbagatelli/server_api_test#readme"
+}
