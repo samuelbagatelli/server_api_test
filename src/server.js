@@ -6,7 +6,7 @@ const token = 649145569903242;
 const app = express().use(bodyParser.json());
 app.use(cors());
 
-app.listen(3000, () => console.log(`API running on port 3000`));
+app.listen(1337, () => console.log(`API running on port 3000`));
 
 app.get("/webhook", (req, res) => {
   const verify_token = "8wjKqY9YVA";

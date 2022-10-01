@@ -15,8 +15,12 @@
   "author": "someone else",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "cors": "2.8",
     "express": "^4.17",
+=======
+    "express": "4.17",
+>>>>>>> 311dfd5fedfff4db6a4ae05f61b3a936d4a82a85
     "nodemon": "^2.0.20"
   },
   "devDependencies": {
