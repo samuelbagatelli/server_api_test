@@ -15,6 +15,7 @@
   "author": "someone else",
   "license": "ISC",
   "dependencies": {
+    "cors": "2.8",
     "express": "^4.17",
     "nodemon": "^2.0.20"
   },

@@ -1,8 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 
 const token = 649145569903242;
 
 const app = express().use(bodyParser.json());
+app.use(cors());
 
 app.listen(3000, () => console.log(`API running on port 3000`));
 
